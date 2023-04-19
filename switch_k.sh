@@ -1,6 +1,5 @@
 menu_from_array ()
 {
-
   select item; do
     if [ 1 -le "$REPLY" ] && [ "$REPLY" -le $# ];
 
